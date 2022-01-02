@@ -50,6 +50,6 @@ links.forEach((link,i) =>{
 //     body: new URLSearchParams(formData).toString()
 //   }).then(() => console.log('Form successfully submitted')).catch((error) =>
 //     alert(error))
-}//
+//
 
 
