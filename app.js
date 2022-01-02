@@ -19,3 +19,38 @@ links.forEach((link,i) =>{
         }
     })
 })
+
+//form submit
+// const name_form=document.getElementById('name');
+// const email=document.getElementById('email');
+// const message=document.getElementById('message');
+
+// name_form.addEventListener('blur', valName);
+// email.addEventListener('blur', valEmail);
+// phone.addEventListener('blur', valPhone);
+
+// function valName() {
+//     const re = /^[a-zA-Z]{2,20}$/;
+//     if(!re.test(name_form.value)) {
+//         name_form.classList.add('is-invalid');
+//     } else {
+//         name_form.classList.remove('is-invalid');
+//     }
+//   }
+
+// debugger;
+// document.querySelector("myform").addEventListener("btnSubmit", handleSubmit);
+
+// const handleSubmit = (e) => {
+//   e.preventDefault()
+//   let myForm = document.getElementById('myform');
+//   let formData = new FormData(myForm)
+//   fetch('/', {
+//     method: 'POST',
+//     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+//     body: new URLSearchParams(formData).toString()
+//   }).then(() => console.log('Form successfully submitted')).catch((error) =>
+//     alert(error))
+}
+
+
