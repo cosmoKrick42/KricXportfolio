@@ -2,7 +2,6 @@ const links = document.querySelectorAll('.link');
 const sections = document.querySelectorAll('section');
 
 let activeLink=0;
-
 links.forEach((link,i) =>{
     link.addEventListener('click',() =>{
         if(activeLink !=i){
@@ -51,6 +50,6 @@ links.forEach((link,i) =>{
 //     body: new URLSearchParams(formData).toString()
 //   }).then(() => console.log('Form successfully submitted')).catch((error) =>
 //     alert(error))
-}
+}//
 
 
