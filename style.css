@@ -489,5 +489,6 @@ body {
 }
 
 .Recaptcha {
-  padding: 15px 50px;
+  padding-bottom: 10px;
+  padding-left: 30px;
 }
