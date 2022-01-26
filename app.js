@@ -19,6 +19,13 @@ links.forEach((link,i) =>{
     })
 })
 
+debugger;
+function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+    audio.volume = 0.1;
+  }
+
 //form submit
 // const name_form=document.getElementById('name');
 // const email=document.getElementById('email');

@@ -491,3 +491,17 @@ body {
 .Recaptcha {
   padding-bottom: 10px;
 }
+
+/* added on 26/01/21 with frusturation */
+.Audio-btn {
+  height: 40px;
+  background: gray;
+  color: gold;
+  text-transform: capitalize;
+  padding: 13px 10px;
+  display: block;
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

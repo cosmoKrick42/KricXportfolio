@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+
         <!-- nav bar -->
         <nav class="navbar">
             <ul class="link-group">
@@ -93,12 +94,16 @@
 
         <!-- about section -->
         <section class="about-section">
+        <!-- starwars_music -->
+        <!-- <embed src="Mp3/StarWars.wav" loop="true" autostart="true" width="2"
+        height="0"> -->
+        <audio id="audio" src="Mp3/StarWars.wav"></audio>
             <div class="about">
                 <div class="about-img-container">
                     <img src="img/home.png" class="about-img" alt="">
                     <button class="download-cv-btn">download cv</button>
                 </div>
-                <p class="about-info">Hello there, I'm Karthick Srinivasan. I'm a Full Stack Developer living in Bangalore.</p>
+                <p class="about-info">Hello there, I'm Karthick Srinivasan. I'm a Full Stack Developer living in Bangalore.  I love coding, bringing out Ideas and Skills into marvelous Dynamic webApps. I'm Currently working at National Informatics Center and was responsible for overseeing the entire end-to-end software development life cycle.</p>
             </div> 
             <!-- skills -->
             <div class="skill-section">
@@ -106,31 +111,31 @@
                 <div class="skills-container">
                     <div class="skill-card">
                         <img src="img/html.png" class="skill-img" alt="">
-                        <div class="skill-level">98%</div>
+                        <!-- <div class="skill-level">98%</div> -->
                         <h1 class="skill-name">HTML</h1>
                         <p class="skill-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, fuga?</p>
                     </div>
                     <div class="skill-card">
                         <img src="img/css.png" class="skill-img" alt="">
-                        <div class="skill-level">98%</div>
+                        <!-- <div class="skill-level">98%</div> -->
                         <h1 class="skill-name">CSS</h1>
                         <p class="skill-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, fuga?</p>
                     </div>
                     <div class="skill-card">
-                        <img src="img/js.png" class="skill-img" alt="">
-                        <div class="skill-level">98%</div>
+                        <img src="img/c#.png" class="skill-img" alt="">
+                        <!-- <div class="skill-level">98%</div> -->
                         <h1 class="skill-name">Js</h1>
                         <p class="skill-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, fuga?</p>
                     </div>
                     <div class="skill-card">
-                        <img src="img/nodejs.png" class="skill-img" alt="">
-                        <div class="skill-level">98%</div>
+                        <img src="img/js.png" class="skill-img" alt="">
+                        <!-- <div class="skill-level">98%</div> -->
                         <h1 class="skill-name">nodeJs</h1>
                         <p class="skill-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, fuga?</p>
                     </div>
                     <div class="skill-card">
-                        <img src="img/reactjs.png" class="skill-img" alt="">
-                        <div class="skill-level">98%</div>
+                        <img src="img/core.png" class="skill-img" alt="">
+                        <!-- <div class="skill-level">98%</div> -->
                         <h1 class="skill-name">ReactJs</h1>
                         <p class="skill-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, fuga?</p>
                     </div>
@@ -166,6 +171,9 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <button id="btnPlay" onclick="play()" class="Audio-btn" value="STARWARS BUTTON" >STARWARS BUTTON</button>
+            </div>
         </section>  
 
         <!-- contact section -->
@@ -179,7 +187,7 @@
                         <!-- <h4>asdfasf</h4>-->
                     </div>
                 </div>
-                <button type="submit" class="form-submit-btn">Contact</button>
+                <button type="submit"  class="form-submit-btn">Contact</button>
             </form>
             <!-- maps -->
             <div class="map">
