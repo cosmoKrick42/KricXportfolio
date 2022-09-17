@@ -3,6 +3,7 @@ const sections = document.querySelectorAll("section");
 
 let activeLink = 0;
 links.forEach((link, i) => {
+  debugger;
   link.addEventListener("click", () => {
     if (activeLink != i) {
       links[activeLink].classList.remove("active");
@@ -45,7 +46,7 @@ function DownloadFile(fileName) {
     }
   };
   req.send();
-};
+}
 
 debugger;
 function play() {
